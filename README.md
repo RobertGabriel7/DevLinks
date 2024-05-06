@@ -44,4 +44,4 @@ Esse projeto está sob a licença MIT.
 
 ---
 
-Feito com ♥ by robert_seven_ com apoio da [Rocketseat](https://app.rocketseat.com.br/journey/discover/overview)
+Feito com ♥ by robert_seven_ com apoio da [Rocketseat](https://app.rocketseat.com.br/journey/discover/overview).
