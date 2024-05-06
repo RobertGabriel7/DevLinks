@@ -62,6 +62,7 @@ body {
 
   background: var(--bg-url) no-repeat top center/cover;
   font-family: "Inter Tight";
+  height: 100vh;
 
 }
 
@@ -69,7 +70,8 @@ div#container {
   /* margin: auto só funciona com elementos em block */
   margin: 20px auto 0px;
   /* o container fica no meio porque é um block (por padrão), se fosse inline não daria o mesmo resultado */
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   padding: 0px 24px;
 
 }
@@ -222,4 +224,13 @@ span#tracker {
   text-decoration: underline;
   color: var(--text-color);
 
+}
+
+@media (min-width: 700px){
+  :root{
+    --bg-url: url(../img/bg-desktop.jpg);
+  }
+  .light{
+    --bg-url: url(../img/bg-desktop-light.jpg);
+  }
 }
