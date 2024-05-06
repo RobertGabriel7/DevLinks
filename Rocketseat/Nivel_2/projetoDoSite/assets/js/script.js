@@ -14,10 +14,11 @@ function teste(){
         html.style.transition = "all 2s";
         
         /* Para atribuir um atributo para uma img: setAttribute('dizer qual atribuito vou utilizar', 'o valor do atributo') */
-        img.setAttribute('src', '../img/carinha_do_ti-noite.jpg');
+        img.setAttribute('src', './Rocketseat/Nivel_2/projetoDoSite/assets/img/carinha_do_ti-noite.jpg');
+        img.setAttribute('alt', 'Foto pessoal para o tema escuro do site')
     }else{
         html.classList.add("light");
-        img.setAttribute('src', '../img/carinha_do_ti.jpg');
+        img.setAttribute('src', './Rocketseat/Nivel_2/projetoDoSite/assets/img/carinha_do_ti.jpg');
         img.setAttribute('alt', 'Foto pessoal para o tema claro do site')
     }
     
