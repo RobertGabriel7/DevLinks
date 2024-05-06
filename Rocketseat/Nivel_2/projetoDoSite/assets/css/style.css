@@ -191,8 +191,7 @@ span#tracker {
   /* transition: o elemento e o tempo da transição; */
   transition: all 0.2s;
 
-}
-
+  
 /* pseudo-selector */
 /* :hover modifica algo quando eu passo o mouse em cima de algum elemento */
 #section a:hover {
