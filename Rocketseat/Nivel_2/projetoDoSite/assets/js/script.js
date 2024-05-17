@@ -18,7 +18,7 @@ function teste(){
         img.setAttribute('alt', 'Foto pessoal para o tema escuro do site')
     }else{
         html.classList.add("light");
-        img.setAttribute('src', './Rocketseat/Nivel_2/projetoDoSite/assets/img/marlinho2.jpg');
+        img.setAttribute('src', './Rocketseat/Nivel_2/projetoDoSite/assets/img/marlinho2.jpeg');
         img.setAttribute('alt', 'Foto pessoal para o tema claro do site')
     }
     
